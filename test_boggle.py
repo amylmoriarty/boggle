@@ -8,10 +8,10 @@ class TestBoggle (unittest.TestCase):
  
     """
     def test_can_create_an_empty_grid (self):
-    """
-    Test to see if we can create an empty grid
-    """
-    grid = boggle.make_grid (0, 0)
-    self.assertEqual(len (grid), 0 )
-    
+        """
+        Test to see if we can create an empty grid
+        """
+        grid = boggle.make_grid (0, 0)
+        self.assertEqual(len (grid), 0 )
+        
     
