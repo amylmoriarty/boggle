@@ -15,3 +15,11 @@ class TestBoggle (unittest.TestCase):
         self.assertEqual(len (grid), 0 )
         
     
+    def test_grid_size_is_width_times_height (self):
+        """
+        Test is to ensure that the total size of the grid 
+        is equal to width * height
+        """
+        grid = boggle.make_grid (2, 3)
+        self.assertEqual(len(grid), 6)
+        
